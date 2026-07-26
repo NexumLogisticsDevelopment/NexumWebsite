@@ -1,0 +1,50 @@
+:root{
+  /* base palette */
+  --navy-950:#081625;
+  --navy-900:#0B1F3B;
+  --navy-800:#122A4C;
+  --navy-700:#1B3A66;
+  --orange-500:#F0701E;
+  --orange-400:#F5893D;
+  --orange-100:#FDECDD;
+  --gray-50:#F5F7FA;
+  --gray-100:#EEF1F6;
+  --gray-500:#5B6B82;
+  --gray-700-a:#33415580;
+  --white:#FFFFFF;
+  --whatsapp-green:#25D366;
+
+  /* semantic: surfaces */
+  --color-surface-page:var(--white);
+  --color-surface-muted:var(--gray-50);
+  --color-surface-dark:var(--navy-900);
+  --color-surface-darker:var(--navy-950);
+  --color-surface-card:var(--white);
+  --color-surface-card-on-dark:rgba(255,255,255,.06);
+  --color-border-card-on-dark:rgba(255,255,255,.16);
+
+  /* semantic: text */
+  --color-text-heading:var(--navy-900);
+  --color-text-heading-inverse:var(--white);
+  --color-text-body:var(--gray-500);
+  --color-text-body-inverse:#B7C3D6;
+  --color-text-body-inverse-soft:#C6D0E0;
+  --color-text-muted-inverse:#9DAEC5;
+
+  /* semantic: accent / actions */
+  --color-accent:var(--orange-500);
+  --color-accent-strong:var(--orange-400);
+  --color-accent-hover:#D85F10;
+  --color-accent-tint:var(--orange-100);
+
+  /* semantic: borders */
+  --color-border:#E7ECF3;
+  --color-border-soft:#E1E7F0;
+
+  /* shadows */
+  --shadow-md:0 10px 30px rgba(11,31,59,.10);
+  --shadow-lg:0 20px 50px rgba(11,31,59,.16);
+  --shadow-accent:0 12px 24px rgba(240,112,30,.32);
+  --shadow-accent-hover:0 16px 28px rgba(240,112,30,.4);
+  --shadow-whatsapp:0 10px 26px rgba(37,211,102,.45);
+}

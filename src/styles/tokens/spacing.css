@@ -1,0 +1,17 @@
+:root{
+  --space-1:4px;
+  --space-2:8px;
+  --space-3:12px;
+  --space-4:16px;
+  --space-5:22px;
+  --space-6:26px;
+  --space-7:34px;
+  --space-8:46px;
+  --space-9:60px;
+  --space-10:100px;
+
+  --container-width:1180px;
+  --container-pad:24px;
+  --section-pad-y:100px;
+  --section-pad-y-mobile:64px;
+}

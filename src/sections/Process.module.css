@@ -1,0 +1,77 @@
+.band {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  height: 260px;
+  margin-bottom: 56px;
+  box-shadow: var(--shadow-lg);
+  position: relative;
+}
+
+.bandPhoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.bandCaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 18px 28px;
+  background: linear-gradient(0deg, rgba(8, 22, 37, 0.88), transparent);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 14px;
+  font-weight: var(--weight-medium);
+}
+
+.steps {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 18px;
+}
+
+.addedValue {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-top: 56px;
+}
+
+.avCard {
+  padding: 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  text-align: center;
+}
+
+.avIcon {
+  display: inline-flex;
+  color: var(--color-accent);
+}
+
+.avTitle {
+  font-size: 13.5px;
+  margin: 10px 0 0;
+  color: var(--color-text-heading);
+}
+
+@media (max-width: 1024px) {
+  .steps,
+  .addedValue {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .steps,
+  .addedValue {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .band {
+    height: 200px;
+  }
+}
