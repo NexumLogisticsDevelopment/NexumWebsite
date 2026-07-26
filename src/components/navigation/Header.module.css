@@ -1,0 +1,102 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: transparent;
+  padding: 22px 0;
+  transition: all var(--duration-slow) var(--ease-standard);
+}
+
+.scrolled {
+  background: rgba(8, 22, 37, 0.94);
+  backdrop-filter: blur(var(--blur-header));
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  padding: 12px 0;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoLink {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 34px;
+  width: auto;
+  display: block;
+}
+
+.navDesktop {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+}
+
+.navLink {
+  font-family: var(--font-display);
+  font-weight: var(--weight-medium);
+  font-size: 14.5px;
+  color: #e7ecf4;
+  transition: color var(--duration-fast) var(--ease-standard);
+}
+
+.navLink:hover {
+  color: var(--color-accent-strong);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  padding: 6px;
+}
+
+.navMobile {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .navDesktop,
+  .ctaDesktop {
+    display: none;
+  }
+
+  .toggle {
+    display: block;
+  }
+
+  .navMobile {
+    display: flex;
+    flex-direction: column;
+    background: rgba(8, 22, 37, 0.98);
+    padding: 10px 24px 24px;
+  }
+
+  .navMobileLink {
+    font-family: var(--font-display);
+    font-weight: var(--weight-medium);
+    font-size: 16px;
+    color: #e7ecf4;
+    padding: 13px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .navMobileCta {
+    margin-top: 18px;
+  }
+}

@@ -1,0 +1,36 @@
+.card {
+  padding: 30px 26px;
+  border-radius: var(--radius-lg);
+  background: #fff;
+  border: 1px solid var(--color-border);
+  box-shadow: var(--shadow-md);
+  transition: transform var(--duration-base) var(--ease-standard);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.number {
+  font-family: var(--font-display);
+  font-weight: var(--weight-extrabold);
+  font-size: 13px;
+  color: var(--color-accent);
+  letter-spacing: 0.08em;
+}
+
+.tile {
+  margin: 14px 0 16px;
+}
+
+.title {
+  font-size: 17px;
+  margin-bottom: 8px;
+  color: var(--color-text-heading);
+}
+
+.text {
+  font-size: 14px;
+  margin: 0;
+  color: var(--color-text-body);
+}

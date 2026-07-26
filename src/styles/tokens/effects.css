@@ -1,0 +1,16 @@
+:root{
+  --radius-sm:10px;
+  --radius-md:14px;
+  --radius-lg:16px;
+  --radius-pill:50px;
+  --radius-circle:50%;
+
+  --ease-standard:ease;
+  --duration-fast:.2s;
+  --duration-base:.25s;
+  --duration-slow:.35s;
+  --duration-reveal:.7s;
+
+  --blur-glass:6px;
+  --blur-header:10px;
+}

@@ -1,0 +1,24 @@
+.card {
+  background: var(--color-surface-card-on-dark);
+  border: 1px solid var(--color-border-card-on-dark);
+  border-radius: var(--radius-lg);
+  padding: 38px 34px;
+  backdrop-filter: blur(var(--blur-glass));
+}
+
+.icon {
+  color: var(--color-accent);
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.title {
+  color: #fff;
+  font-size: 22px;
+}
+
+.text {
+  color: var(--color-text-body-inverse-soft);
+  font-size: 15px;
+  margin: 0;
+}

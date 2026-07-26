@@ -1,0 +1,25 @@
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tint {
+  background: var(--color-accent-tint);
+  color: var(--color-accent);
+}
+
+.navy {
+  background: var(--color-surface-dark);
+  color: var(--color-accent);
+}
+
+.accent {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.glass {
+  background: rgba(240, 112, 30, 0.16);
+  color: var(--color-accent);
+}

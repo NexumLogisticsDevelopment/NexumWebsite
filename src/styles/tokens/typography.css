@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap');
+
+:root{
+  --font-display:'Poppins', sans-serif;
+  --font-body:'Inter', sans-serif;
+
+  --text-hero:clamp(36px,5.4vw,60px);
+  --text-h2:clamp(28px,4vw,40px);
+  --text-h3:22px;
+  --text-h4:17px;
+  --text-h4-sm:15.5px;
+  --text-eyebrow:13px;
+  --text-lead:18px;
+  --text-body:15px;
+  --text-body-sm:14px;
+  --text-caption:12.5px;
+
+  --weight-regular:400;
+  --weight-medium:500;
+  --weight-semibold:600;
+  --weight-bold:700;
+  --weight-extrabold:800;
+  --weight-black:900;
+
+  --leading-heading:1.15;
+  --leading-body:1.7;
+  --tracking-eyebrow:.14em;
+}

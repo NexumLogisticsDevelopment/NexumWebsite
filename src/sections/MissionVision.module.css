@@ -1,0 +1,47 @@
+.section {
+  background-position: center 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: var(--section-pad-y) 0;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+}
+
+.quote {
+  margin-top: 46px;
+  text-align: center;
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quoteText {
+  color: #fff;
+  font-family: var(--font-display);
+  font-weight: var(--weight-semibold);
+  font-size: clamp(18px, 2.4vw, 26px);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--section-pad-y-mobile) 0;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}

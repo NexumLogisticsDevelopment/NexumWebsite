@@ -1,0 +1,82 @@
+.form {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 36px;
+  box-shadow: var(--shadow-lg);
+}
+
+.title {
+  font-size: 19px;
+  color: var(--color-text-heading);
+  margin-bottom: 4px;
+}
+
+.subtitle {
+  font-size: 13.5px;
+  margin-bottom: 22px;
+  color: var(--color-text-body);
+}
+
+.label {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 12.5px;
+  font-weight: var(--weight-semibold);
+  color: var(--color-text-heading);
+  margin-bottom: 6px;
+  margin-top: 14px;
+}
+
+.field {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  border: 1.5px solid var(--color-border-soft);
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--color-text-heading);
+  background: var(--color-surface-muted);
+}
+
+.field:focus {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 1px;
+}
+
+.textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.submit {
+  margin-top: 22px;
+}
+
+.note {
+  font-size: 11.5px;
+  color: var(--color-text-body);
+  margin-top: 12px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.mail {
+  color: var(--color-accent);
+}
+
+@media (max-width: 560px) {
+  .row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .form {
+    padding: 26px 22px;
+  }
+}

@@ -1,0 +1,30 @@
+.card {
+  background: var(--color-surface-card-on-dark);
+  border: 1px solid var(--color-border-card-on-dark);
+  border-radius: var(--radius-lg);
+  padding: 30px 26px;
+  transition:
+    transform var(--duration-base) var(--ease-standard),
+    background var(--duration-base) var(--ease-standard);
+}
+
+.card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-5px);
+}
+
+.tile {
+  margin-bottom: 16px;
+}
+
+.title {
+  color: #fff;
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.text {
+  color: var(--color-text-body-inverse-soft);
+  font-size: 14px;
+  margin: 0;
+}
