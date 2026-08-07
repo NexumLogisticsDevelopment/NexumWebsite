@@ -7,17 +7,20 @@ export const IMAGES = {
   logoWhite: '/logo/nexum-logo-white.png',
 
   heroBackground: '/photos/hero-highway-sunset.jpg',
-  aboutTruck: '/photos/about-truck-highway.jpg',
+  aboutTruck: '/photos/manzanillo-landscape.jpg',
   missionVisionBackground: '/photos/mission-vision-bg.jpg',
-  coveragePort: '/photos/coverage-manzanillo-port.jpg',
+  coveragePort: '/photos/manzanillo-port.jpg',
   processBand: '/photos/process-band-terminal.jpg',
   ctaBackground: '/photos/cta-bg.jpg',
   teamPortrait: '/photos/team-portrait-laptop.jpg',
+  
+  //Trabajo realizado
+  cargaSobredimensionada: '/photos/carga-sobredimensionada.jpg',
+  cargaEnPlataforma: '/photos/carga-plataforma.jpg',
+  movimientoLaminaAcero: '/photos/movimiento-lamina-acero.jpg',
+  cargaGranel: '/photos/carga-granel.jpg',
+  cargaTuberia: '/photos/carga-tuberia.jpg',
 
-  serviceFull: '/photos/service-full-doble-remolque.jpg',
-  serviceSencillo: '/photos/service-sencillo-contenedor.jpg',
-  serviceCamioneta: '/photos/service-camioneta-3-5.jpg',
-  serviceLowboy: '/photos/service-lowboy.jpg',
 
   stripPortDusk: '/photos/strip-port-dusk.jpg',
 } as const;
